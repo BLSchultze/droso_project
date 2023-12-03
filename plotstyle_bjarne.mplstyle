@@ -1,0 +1,81 @@
+
+## Font sizes
+axes.titlesize :    13
+axes.labelsize :    13
+xtick.labelsize :   13
+ytick.labelsize :   13
+legend.fontsize :   12
+
+## Line width and marker size
+lines.linewidth :   1
+lines.markersize :  10
+
+## Figure properties
+axes.spines.right : False
+axes.spines.top :   False
+axes.linewidth :    1.5
+figure.frameon:     False
+figure.facecolor :  none
+figure.edgecolor :  none
+
+## Boxplot
+
+boxplot.showcaps:    True
+boxplot.showbox:     True
+
+boxplot.flierprops.color:           black
+boxplot.flierprops.marker:          o
+boxplot.flierprops.markerfacecolor: none
+boxplot.flierprops.markeredgecolor: black
+boxplot.flierprops.markeredgewidth: 1.0
+boxplot.flierprops.markersize:      6
+boxplot.flierprops.linestyle:       none
+boxplot.flierprops.linewidth:       1.0
+
+boxplot.boxprops.color:     black
+boxplot.boxprops.linewidth: 1.0
+boxplot.boxprops.linestyle: -
+
+boxplot.whiskerprops.color:     black
+boxplot.whiskerprops.linewidth: 1.0
+boxplot.whiskerprops.linestyle: -
+
+boxplot.capprops.color:     black
+boxplot.capprops.linewidth: 1.0
+boxplot.capprops.linestyle: -
+
+boxplot.medianprops.color:     black
+boxplot.medianprops.linewidth: 1.5
+boxplot.medianprops.linestyle: -
+
+boxplot.meanprops.color:           C2
+boxplot.meanprops.marker:          ^
+boxplot.meanprops.markerfacecolor: C2
+boxplot.meanprops.markeredgecolor: C2
+boxplot.meanprops.markersize:       6
+boxplot.meanprops.linestyle:       --
+boxplot.meanprops.linewidth:       1.0
+
+
+## Ticks
+
+xtick.major.size:    4.5     # major tick size in points
+xtick.minor.size:    2.5     # minor tick size in points
+xtick.major.width:   1.0     # major tick width in points
+xtick.minor.width:   0.9     # minor tick width in points
+xtick.major.pad:     3.5     # distance to major tick label in points
+xtick.minor.pad:     3.4     # distance to the minor tick label in points
+xtick.color:         black   # color of the ticks
+xtick.labelcolor:    inherit # color of the tick labels or inherit from xtick.color
+xtick.minor.visible: False   # visibility of minor ticks on x-axis
+
+
+ytick.major.size:    4.5     # major tick size in points
+ytick.minor.size:    2.5     # minor tick size in points
+ytick.major.width:   1.0     # major tick width in points
+ytick.minor.width:   0.9     # minor tick width in points
+ytick.major.pad:     3.5     # distance to major tick label in points
+ytick.minor.pad:     3.4     # distance to the minor tick label in points
+ytick.color:         black   # color of the ticks
+ytick.labelcolor:    inherit # color of the tick labels or inherit from ytick.color
+ytick.minor.visible: False   # visibility of minor ticks on y-axis
