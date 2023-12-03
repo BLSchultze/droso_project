@@ -7,12 +7,15 @@ This repository contains the following notebooks, modules, and meta data files:
   - plot_stim_and_examples.ipynb   (plot the stimulation protocols and parts of an example trace)
   - rms_analysis.ipynb             (audio trace analysis in the time domain based on the energy and power of the signal)
   - save_example_stim_data.ipynb   (extract and save the example and stimulus data used in plot_stim_and_examples.ipynb)
-    
+<br>
+
   - connectome_fun.py              (functions to facilitate working with the MANC connectome)
   - neuron_loading_3d.py           (functions to load three-dimensional neuron reconstructions)
   - opto_analysis_fun.py           (functions to analyze audio traces from optogenetic experiments)
+<br>
 
   - plotstyle_bjarne.mplstyle      (custom matplotlib plot style)
+<br>
     
   - experiments_list.txt           (list of experiment metadata)
   - opto_calibration.txt           (calibration table for the LED used for optogenetic stimulation)
